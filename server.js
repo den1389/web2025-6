@@ -6,7 +6,6 @@ const { program } = require('commander');
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 
-
 program
   .requiredOption('-h, --host <host>', 'host')
   .requiredOption('-p, --port <port>', 'port')
