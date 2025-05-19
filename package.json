@@ -1,0 +1,32 @@
+{
+  "name": "web2025-6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js -- -h localhost -p 3000 -c ./cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/den1389/web2025-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/den1389/web2025-6/issues"
+  },
+  "homepage": "https://github.com/den1389/web2025-6#readme",
+  "description": "",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
